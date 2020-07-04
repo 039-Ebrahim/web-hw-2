@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  width: 100%;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #015304;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    margin-left: 530px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    transition: 0.5s;
+    text-align: center;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-left: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    left: 0;
+  }
+
+  .yuce {
+    background-color: #ffffff;
+  }
+  
+  .impl {
+    margin-left: 160px;
+    padding-left: 380px;
+    height: 125px;
+    width: 220px;
+    margin-top: 0px;
+    display: inline;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.about {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  font-size: 2.5em;
+}
+
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  height: 70px;
+}
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 27px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #015304;
+  color: white;
+}
+
+.paragraph {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  font-size: 25px;
+}
+
+.footer {
+  height: 50px;
+  margin-top: 0px;
+}
+
+footer {
+  background: white;
+  color: black;
+  line-height: 50px;
+  padding: 0 20px;
+  text-align: center;
+  margin-left: 120px;
+  margin-top: 0px;
+}
+
+.pot {
+  margin-left: -120px;
+}
+
+
+.footer {
+  height: 170px;
+  margin-top: 0px;
+  margin: 0px;
+}
+
+footer {
+  background: whitesmoke;
+  color: black;
+  line-height: 50px;
+  padding: 0px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.pot {
+  margin-left: 0px;
+}
+
+.photo {
+  height: 80px;
+  width: 100px;
+  margin-left:10px ;
+  padding-left: -400px;
+  display: inline-flex;
+}

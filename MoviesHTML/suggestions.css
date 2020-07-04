@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    width: 100%;
+  }
+  
+.yuce {
+    background-color: #ffffff;
+}
+  
+.impl {
+    margin-left: 100px;
+    padding-left: 380px;
+    height: 125px;
+    width: 220px;
+    margin-top: 0px;
+    display: inline;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.suggest {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    font-size: 2.5em;
+ }
+
+.suggestis {
+    height: 200px;
+    width: 50%;
+    margin: auto;
+    margin-top: 0px;
+    margin-left: 300px ;
+}
+
+.label {
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: white;
+    border: 2px double black;
+    margin-left: 300px;
+}
+
+.submit {
+    width: 47px;
+    height: 16px;
+    background-color: white;
+    margin-left: 600px;
+    border: 2px solid black;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.submit :hover {
+    background-color:  #015304;
+    color: white;
+}
+
+.sumbit {
+    text-align: center;
+    color: black;
+    justify-content: center;
+}
+
+.back {
+    text-decoration: none;
+    display: inline;
+    padding: 8px 16px;
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left;
+  }
+  
+  .back :hover {
+    background-color: #015304;
+    color: white;
+  }
+  
+  .previous {
+    background-color: #015304;
+    color: white;
+  }
+
+  .footer {
+    height: 170px;
+    margin-top: 0px;
+    margin: 0px;
+  }
+  
+  footer {
+    background: whitesmoke;
+    color: black;
+    line-height: 50px;
+    padding: 0px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100%;
+  }
+  
+  .pot {
+    margin-left: 0px;
+  }
+  
+  .photo {
+    height: 80px;
+    width: 100px;
+    margin-left:10px ;
+    padding-left: -400px;
+    display: inline-flex;
+  }
+  

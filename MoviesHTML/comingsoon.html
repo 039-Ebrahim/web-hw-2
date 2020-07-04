@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+
+    <link rel="stylesheet" href="./Homestylesbackground.css">
+    <link rel="stylesheet" href="./comingsoon.css">
+</head>
+<body>
+    <div class="yuce">
+        <img src="./img/Veredee.jpg" class="impl" />
+        
+        <a href="./Home.html" class="back previous round">&#8249;</a>
+    </div>
+
+    <div class="about">
+        <h1>Coming soon!</h1>
+    </div>
+
+    <div>
+        <div class="slideshow-container">
+            <!-- حركااات سلايد شووو -->
+            <div class="slideshow-container">
+    
+        
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 2</div>
+                <a href= "https://www.youtube.com/watch?v=t2ERrnMzvQY" target="_blank">
+                  <img src="img/Zalim.jpg" style="width: 100%;" />
+                </a>
+                <div class="text">
+                  <p class="para">Fikret Kushkan, Mine Tugay, and Deniz Ugur in</p>
+                  <p class="Tittle">Zalim Istanbul</p>
+                </div>
+              </div>
+        
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 2</div>
+                <a href="https://www.youtube.com/watch?v=xdm7Z3TQhDg" target="_blank">
+                  <img src="img/vikings.jpg" style="width: 100%;" />
+                </a>
+                <div class="text">
+                  <p class="para">Travis Fimmel and Katheryn Winnick in</p>
+                  <p class="Tittle">Vikings</p>
+                </div>
+              </div>
+        
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br />
+        
+            <div style="text-align: center;">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+
+        
+
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+  
+            function plusSlides(n) {
+              showSlides((slideIndex += n));
+            }
+  
+            function currentSlide(n) {
+              showSlides((slideIndex = n));
+            }
+  
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {
+                slideIndex = 1;
+              }
+              if (n < 1) {
+                slideIndex = slides.length;
+              }
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex - 1].style.display = "block";
+              dots[slideIndex - 1].className += " active";
+            }
+          </script>
+
+<script> 
+
+    slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides((slideIndex += n));
+    }
+
+    function currentSlide(n) {
+        showSlides((slideIndex = n));
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+        slideIndex = 1;
+        }
+        if (n < 1) {
+        slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
+
+<div>
+    <footer class="footer">
+     <div class="juhg">
+       <a href="https://www.instagram.com/kuwaiti_slang/" target="_blank">
+         <img src="./img/instagram.png" class="photo">
+       </a>
+
+       <a href="https://www.twitter.com/alkhashti0/" target="_blank">
+         <img src="./img/twitter.png" class="photo">
+       </a>
+     </div>
+     <p class="pot">
+       Copyright & copy;
+       <script>
+         document.write(new Date().getFullYear());
+       </script>
+       , verde
+     </p>
+   </footer>
+</div>  
+    
+</body>
+</html>
